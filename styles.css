@@ -12,28 +12,28 @@
   --color-accent-hover: #b0871d;
   --color-accent-soft: #fcf9f2;
   --color-accent-border: #e9dbb5;
-  
+
   /* Neutrals & Surfaces */
   --color-bg: #f8fafc;
   --color-card-bg: #ffffff;
   --color-border: #e2e8f0;
   --color-border-subtle: #edf2f7;
-  
+
   /* Typography Colors (High Contrast & Accessible) */
   --color-text-main: #0f172a;
   --color-text-body: #334155;
   --color-text-muted: #64748b;
   --color-text-inverse: #ffffff;
-  
+
   /* Typography Settings */
   --font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-family-heading: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  
+
   /* Elevation & Shadows */
   --shadow-sm: 0 1px 2px 0 rgba(15, 23, 42, 0.05);
   --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.07), 0 2px 4px -2px rgba(15, 23, 42, 0.05);
   --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -4px rgba(15, 23, 42, 0.04);
-  
+
   /* Layout Spacing */
   --container-max-width: 980px;
   --radius-sm: 4px;
@@ -189,7 +189,10 @@ button:focus-visible {
 /* ==========================================================================
    Headings & Section Titles
    ========================================================================== */
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   color: var(--color-primary-navy);
   font-family: var(--font-family-heading);
   line-height: 1.25;
@@ -705,24 +708,24 @@ h3 {
     color: #000000;
     font-size: 11pt;
   }
-  
+
   .site-header,
   .site-footer,
   .resume-actions-bar,
   .btn {
     display: none !important;
   }
-  
+
   .main-content {
     padding: 0;
   }
-  
+
   .resume-sheet {
     border: none;
     box-shadow: none;
     padding: 0;
   }
-  
+
   a {
     color: #000000;
     text-decoration: none;
@@ -737,27 +740,27 @@ h3 {
     flex-direction: column;
     align-items: flex-start;
   }
-  
+
   .nav-list {
     width: 100%;
     justify-content: flex-start;
   }
-  
+
   .skills-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .hero-panel,
   .resume-sheet,
   .journey-article {
     padding: 1.5rem;
   }
-  
+
   .experience-header {
     flex-direction: column;
     align-items: flex-start;
   }
-  
+
   .footer-container {
     flex-direction: column;
     align-items: flex-start;
@@ -768,20 +771,20 @@ h3 {
   h1 {
     font-size: 1.75rem;
   }
-  
+
   h2 {
     font-size: 1.35rem;
   }
-  
+
   .hero-actions {
     flex-direction: column;
     width: 100%;
   }
-  
+
   .hero-actions .btn {
     width: 100%;
   }
-  
+
   .nav-link {
     padding: 0.4rem 0.6rem;
     font-size: 0.875rem;
