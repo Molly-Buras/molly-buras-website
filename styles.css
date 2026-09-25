@@ -653,6 +653,65 @@ h3 {
 }
 
 /* ==========================================================================
+   Project Case Study & SQL Query Matrix Styles
+   ========================================================================== */
+.project-case-study {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-left: 5px solid var(--color-secondary-navy);
+  border-radius: var(--radius-md);
+  padding: 1.75rem;
+  margin: 1.5rem 0 2rem 0;
+  box-shadow: var(--shadow-sm);
+}
+
+.project-case-study h3 {
+  font-size: 1.25rem;
+  color: var(--color-primary-navy);
+  margin-bottom: 0.5rem;
+}
+
+.project-meta-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.query-matrix-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 1.5rem 0;
+}
+
+.query-matrix-card {
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 0.85rem 1rem;
+}
+
+.query-skill-code {
+  display: inline-block;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.825rem;
+  font-weight: 700;
+  color: var(--color-secondary-navy);
+  background-color: #e2e8f0;
+  padding: 0.15rem 0.45rem;
+  border-radius: var(--radius-sm);
+  margin-bottom: 0.35rem;
+}
+
+.query-skill-desc {
+  font-size: 0.85rem;
+  color: var(--color-text-body);
+  line-height: 1.45;
+  margin: 0;
+}
+
+/* ==========================================================================
    Footer
    ========================================================================== */
 .site-footer {
