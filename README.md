@@ -3,8 +3,7 @@
 **Student:** Molly Buras  
 **Course:** ISDS 4125: Analysis and Design of Information Systems  
 **Institution:** Louisiana State University (E. J. Ourso College of Business)  
-**Live Website:** https://molly-buras.github.io/molly-buras-website/  
-*(Alternate GitHub Pages link: [https://molly-buras.github.io/molly-buras-website/](https://molly-buras.github.io/molly-buras-website/))*  
+**Live Website:** https://molly-buras.github.io/molly-buras-website/    
 **Repository:** [https://github.com/Molly-Buras/molly-buras-website](https://github.com/Molly-Buras/molly-buras-website)
 
 ---
